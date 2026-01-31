@@ -23,7 +23,7 @@ I analyzed three datasets (`orders.csv`, `users.json`, `restaurants.sql`) using 
 - Highest revenue combo → **Gold + Italian cuisine**  
 - Quarter with highest revenue → **Q3 (Jul–Sep)**
 
-## Results
+## Numerical Answers
 - **Q1: Total orders placed by Gold members** → 4987  
 - **Q2: Total revenue from Hyderabad city** → 1,889,367  
 - **Q3: Distinct users who placed at least one order** → 2883  
@@ -32,6 +32,17 @@ I analyzed three datasets (`orders.csv`, `users.json`, `restaurants.sql`) using 
 - **Q6: Orders in top revenue city among Gold members only** → Chennai → 1337 orders  
 - **Q7: Membership + Cuisine revenue (highest combo)** → Gold + Italian cuisine  
 - **Q8: Quarterly revenue (highest quarter)** → Q3 (Jul–Sep)
+
+## Fill in the Blanks
+- The column used to join `orders.csv` and `users.json` is **user_id**  
+- The dataset containing cuisine and rating information is stored in **SQL** format  
+- The total number of rows in the final merged dataset is **10,000**  
+- If a user has no matching record in `users.json`, the merged values will be **null**  
+- The Pandas function used to combine datasets based on a key is **merge**  
+- The column `membership` in the final dataset originates from the **users.json** file  
+- The join key used to combine orders data with restaurant details is **restaurant_id**  
+- The column that helps identify the type of food served by a restaurant is **cuisine**  
+- If a user places multiple orders, their personal details appear **multiple** times in the final merged dataset  
 
 ## Conclusion
 This hackathon helped me practice:
